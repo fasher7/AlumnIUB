@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <title>Job</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-2">
+      <div class="container-fluid">
+        <img class="iub" src="Images/iub.png" alt="" />
+        <a class="navbar-brand" href="#">AlumnIUB</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="jobSearch.html">Job</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="forum.html">Forum</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="Event.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="profileSearch.html">Find people</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <button class="btn rounded-pill me-1" style="background-color: #1A8FDD; color: white;" type="submit"><a href="profileEdit.html" style="text-decoration: none;color: #fff;">My Profile</a></button>
+            <button class="btn rounded-pill" style="background-color: #1A8FDD; color: white;" type="submit"><a href="index.html" style="text-decoration: none;color: #fff;">Logout</a></button>
+        </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Card -->
+    <div class="mother m-2">
+      <div class="card border-light p-4 search">
+        <img src="Images/Job.png" class="card-img-top" alt="..." />
+        <div class="mt-2 card-body">
+          <h1 class="card-title" style="text-align: center">Find a Job</h1>
+          <p class="card-text fs-6" style="text-align: center">
+            You can click here to <br />
+            find a job
+          </p>
+          <div style="text-align:center">
+          <a href="JobList.html" 
+            ><button
+              class="btn rounded-pill ps-5 pe-5"
+              style="background-color: #3c3c43; color: white"
+            >
+              Find
+            </button></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card border-light p-4 search">
+        <img src="Images/Hire.png" class="card-img-top" alt="..." />
+        <div class="mt-2 card-body">
+          <h1 class="card-title" style="text-align: center">Hire Someone</h1>
+          <p class="card-text fs-6" style="text-align: center">
+            You can click here to <br />
+            hire someone for a <br />job
+          </p>
+          <div style="text-align:center">
+            <a href="toHire.html"
+              ><button
+                class="btn rounded-pill ps-5 pe-5"
+                style="background-color: #3c3c43; color: white"
+              >
+                Hire
+              </button></a>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

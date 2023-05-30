@@ -1,0 +1,66 @@
+/* nav
+{
+    background-color: #E4EAEE;
+}
+
+.iub
+{
+    width: 1.5%;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: center;
+}
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+  */
+  body
+{
+    
+    background: linear-gradient(90deg, #C7C5F4, #776BCC);
+}
+
+nav
+{    
+    background-color: #E4EAEE;
+    margin-bottom: 75px;
+}
+
+.iub
+{
+    width: 1.5%;
+}
+
+.search
+{
+    width: 23%
+}
+
+.mother
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: center;
+}
+
+.navbar-nav > li{
+    margin-left:30px;
+    margin-right:30px;
+  }
+
+
+

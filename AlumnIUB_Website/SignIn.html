@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/navbar.css" />
+    <link rel="stylesheet" href="CSS/SignUp.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+    />
+    <title>Start</title>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg p-2">
+        <div class="container-fluid">
+         <img class="iub" src="Images/iub.png" alt="">
+         <a class="navbar-brand" href="#">AlumnIUB</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="homeJobSearch.html">Job</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Forum</a>
+            </li> -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="HomeEvent.html">Events</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">About</a>
+            </li> -->
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="form-bg eram">
+        <div class="container ">
+            <div class="row">
+                <div class="col-md-offset-3 col-md-6">
+                    <div class="form-container">
+                        <h3 class="title">Register</h3>
+                        <form class="form-horizontal">
+                            <div class="form-group">
+                                <label>User Name</label>
+                                <input type="text" class="form-control" placeholder="User Name">
+                            </div>
+                            <div class="form-group">
+                                <label>IUB ID</label>
+                                <input type="text" class="form-control" placeholder="IUB Id">
+                            </div>
+                            <div class="form-group">
+                                <label>Password</label>
+                                <input type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="form-group">
+                                <label>Confirm Password</label>
+                                <input type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                            <h4 class="sub-title">Personal Information</h4>
+                            <div class="form-group">
+                                <label>Phone No.</label>
+                                <input type="text" class="form-control" placeholder="Phone Number">
+                            </div>
+                            <div class="form-group">
+                                <label>City</label>
+                                <select class="form-control">
+                                    <option value="Dhaka">Dhaka</option>
+                                    <option value="Chittagong">Chittagong</option>
+                                    <option value="Noakhali">Noakhali</option>
+                                    <option value="Barisal">Barisal</option>
+                                </select>
+                            </div>
+                            <div class="check-terms">
+                                <input type="checkbox" class="checkbox">
+                                <span class="check-label">I agree to the terms</span>
+                            </div>
+                            <span class="signin-link">Already have an account? Click here to <a href="LogIn.html">Login</a></span>
+                            <button class="btn signup"><a href="forum.html" style="text-decoration: none;">Create Account</a></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script src="signup.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+  </body>  
+</html>
